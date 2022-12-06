@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+:root{
+	--bgcolor: #000000;
+	--pcolor: #FF002E;
+
+}
+
+.container{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.navigation{
+	width: 20%;
+	height: 100vh;
+	background-color: var(--bgcolor);
+	padding: 10px 3%;
+	color: #ffffff;
+	text-align: center;
+	position: fixed;
+}
+
+.navigation img{
+	width: 150px;
+	height: 170px;
+	border-radius: 50%;
+	float: center;
+	border: 1px solid #ffffff;
+	opacity: 0.7;
+}
+
+.navigation p{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.navigation ul{
+	text-decoration: none;
+	margin-top: 50px;
+
+}
+.navigation ul li{
+	padding: 10px 2px;
+	display: block
+}
+
+.navigation a{
+	color: #ffffff;
+	opacity: 0.8;
+	font-size: 23x;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.welcome{
+	width: 80%;
+	background-image: url('images/bg.jpg'), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5),rgba(0,0,0,0.7));
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: overlay;
+	margin-left: 20%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #ffffff;
+
+}
+
+.welcome h1{
+	font-size: 45px;
+	color: #ffffff;;
+}
+.welcome p{
+	font-size: 60px;
+	color: #ffffff;
+}
+
+.btn{
+	height: 40px;
+	width: 100px;
+	border: 1px solid var(--pcolor);
+	border-radius: 35px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+.btn p{
+	font-size: 15px;
+	margin: 10px 2px;
+}
+
+
